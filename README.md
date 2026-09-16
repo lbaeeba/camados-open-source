@@ -16,6 +16,7 @@ Die lesbare Übersicht mit allen Projekten steht auf
 |---|---|
 | [`pakete/`](pakete/) | Jedes Paket und jeder Baustein der ausgelieferten Firmware — mit exakter Fassung und Lizenz |
 | [`patches/`](patches/) | Unsere Änderungen an fremder Software, mit vollständiger Bauanleitung |
+| [`rust/`](rust/) | Exakte Fassungen jeder Rust-Abhängigkeit (`.lock`) — der vollständige Quelltext dazu liegt als Archiv bei den [Releases](../../releases) |
 
 Die Listen sind **gemessen, nicht aufgeschrieben**: `dpkg-query` auf einer laufenden
 Box und `cargo metadata` über alle ausgelieferten Programme. Deshalb trägt jede Datei
